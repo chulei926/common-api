@@ -11,6 +11,19 @@
 	<name>common-api</name>
 	<description>通用包，包含：依赖、工具类</description>
 
+	<repositories>
+		<repository>
+			<id>maven-releases</id>
+			<name>Release</name>
+			<url>http://mvn.mizss.com/repository/maven-releases/</url>
+		</repository>
+		<repository>
+			<id>repo1-cache</id>
+			<name>repo1-cache</name>
+			<url>http://maven.aliyun.com/nexus/content/groups/public</url>
+		</repository>
+	</repositories>
+
 	<properties>
 		<org.springframework.version>5.0.7.RELEASE</org.springframework.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -238,7 +251,6 @@
 			<artifactId>ons-client</artifactId>
 			<version>1.8.0.Final</version>
 		</dependency>
-
 
 		<dependency>
 			<groupId>com.aspose</groupId>
